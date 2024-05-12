@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental & Construction</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #495057;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background-color: #ffd166;
+        }
+
+        .jumbotron {
+            background-color: #f8f9fa;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto;
+            width: 100%;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+
+        .footer-link {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .footer-link:hover {
+            color: #ffc107;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Rental & Construction</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#privacyPolicyModal">Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div id="home" class="jumbotron text-center">
+        <h1 class="display-4">Premium Construction & Rental Services</h1>
+        <p class="lead">We provide high-quality equipment and reliable services for your construction needs.</p>
+        <a class="btn btn-primary btn-lg" href="#services" role="button">Learn more</a>
+    </div>
+
+    <!-- Cards Section -->
+    <div id="services" class="container">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imgs/banner1.jpg" class="card-img-top" alt="Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Equipment Rental</h5>
+                        <p class="card-text">Rent top-quality construction equipment at competitive prices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imgs/banner2.jpg" class="card-img-top" alt="Image 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Construction Services</h5>
+                        <p class="card-text">Expert construction services tailored to your project needs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imgs/banner3.jpg" class="card-img-top" alt="Image 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Property Management</h5>
+                        <p class="card-text">Efficient property management solutions for landlords and tenants.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Privacy Policy Modal -->
+    <div class="modal fade" id="privacyPolicyModal" tabindex="-1" role="dialog" aria-labelledby="privacyPolicyModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="privacyPolicyModalLabel">Privacy Policy</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Privacy Policy Content -->
+                    <p>Terms And Conditions</p>
+                    <p>For the purpose of these Terms and Conditions, The term "we", "us", "our" used anywhere on this page shall mean Restate, whose registered/operational office is Restate Khammam TELANGANA 507001. "you", “your”, "user", “visitor” shall mean any natural or legal person who is visiting our website and/or agreed to purchase from us.</p>
+                    <!-- More Privacy Policy Content -->
+                    <h5>Privacy Policy</h5>
+                    <p>We respect your privacy and are committed to protecting it. This Privacy Policy describes how Restate collects, uses, and shares information when you use our website or make a purchase from us.</p>
+                    <h6>Information We Collect</h6>
+                    <p>We collect information from you when you register on our site, place an order, subscribe to our newsletter, respond to a survey or fill out a form.</p>
+                    <!-- Add more content here -->
+                    <!-- Add more content here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>SR University, Anantasagar, Hasanparthy, Telangana, India</p>
+            <p>Hours</p>
+            <p>Open today</p>
+            <p>09:00 am – 05:00 pm</p>
+            <p>Phone number: +91 6303 538 302</p>
+            <p>Copyright &copy; 2024 Rentals and construction - All Rights Reserved.</p>
+            <p><a href="#" class="footer-link" data-toggle="modal" data-target="#privacyPolicyModal">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

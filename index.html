@@ -34,7 +34,7 @@
       .card-img-top {
         height: 200px;
         object-fit: cover;
-      }
+      }   
 
       footer {
         background-color: rgb(121, 154, 186);
@@ -108,6 +108,19 @@
 .text {
     font-size: 16px;
 }
+#product-catalog {
+  padding-top: 50px; /* Adjust as needed */
+}
+
+#product-catalog .card {
+  margin-bottom: 20px;
+}
+
+#product-catalog .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
     </style>
   </head>
 
@@ -132,6 +145,9 @@
             <a class="nav-link" href="#home"
               >Home <span class="sr-only">(current)</span></a
             >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#product-catalog">Product Catalog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#services">Services</a>
@@ -160,6 +176,105 @@
         >Learn more</a
       >
     </div>
+<!-- Product Catalog Section -->
+<section id="product-catalog" class="container">
+  <h2 class="text-center mb-4">Product Catalog</h2>
+  <div class="row">
+    <!-- Product Card 1 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="imgs/jcb.jpeg" class="card-img-top" alt="Product 1" />
+        <div class="card-body">
+          <h5 class="card-title">JCB</h5>
+          <p class="card-text">Amount: &#x20B9;1499 /- Per Hour</p>
+          <!-- Rent and Buy Now Buttons -->
+          <div class="d-flex justify-content-between">
+            <a href="#" class="btn btn-primary">Rent</a>
+            <!-- <a href="#" class="btn btn-success">Buy Now</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Product Card 2 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="imgs/lorry.jpeg" class="card-img-top" alt="Product 2" />
+        <div class="card-body">
+          <h5 class="card-title">Heavy Lorry</h5>
+          <p class="card-text">Amount: &#x20B9;999 /- Per Hour</p>
+          <!-- Rent and Buy Now Buttons -->
+          <div class="d-flex justify-content-between">
+            <a href="#" class="btn btn-primary">Rent</a>
+            <!-- <a href="#" class="btn btn-success">Buy Now</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="imgs/tractor.jpg" class="card-img-top" alt="Product 2" />
+        <div class="card-body">
+          <h5 class="card-title">Tractor</h5>
+          <p class="card-text">Amount: &#x20B9;699 /- Per Hour</p>
+          <!-- Rent and Buy Now Buttons -->
+          <div class="d-flex justify-content-between">
+            <a href="#" class="btn btn-primary">Rent</a>
+            <!-- <a href="#" class="btn btn-success">Buy Now</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Add more product cards here -->
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="imgs/bricks.jpeg" class="card-img-top" alt="Product 1" />
+        <div class="card-body">
+          <h5 class="card-title">Bricks</h5>
+          <p class="card-text">Amount: &#x20B9;15 /- Per Brick</p>
+          <p class="card-text">Minimum Order: 1000 Bricks</p>
+          <!-- Rent and Buy Now Buttons -->
+          <div class="d-flex justify-content-between">
+            <!-- <a href="#" class="btn btn-primary">Rent</a> -->
+            <a href="#" class="btn btn-success">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Product Card 2 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="imgs/cbricks.webp" class="card-img-top" alt="Product 2" />
+        <div class="card-body">
+          <h5 class="card-title">Concrete Bricks</h5>
+          <p class="card-text">Amount: &#x20B9;12 /- Per Brick</p>
+          <p class="card-text">Minimum Order: 1000 Bricks</p>
+          <!-- Rent and Buy Now Buttons -->
+          <div class="d-flex justify-content-between">
+            <!-- <a href="#" class="btn btn-primary">Rent</a> -->
+            <a href="#" class="btn btn-success">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="imgs/cement_bricks.webp" class="card-img-top" alt="Product 2" />
+        <div class="card-body">
+          <h5 class="card-title">Cement Bricks</h5>
+          <p class="card-text">Amount: &#x20B9;10 /- Per Brick</p>
+          <p class="card-text">Minimum Order: 1000 Bricks</p>
+          <!-- Rent and Buy Now Buttons -->
+          <div class="d-flex justify-content-between">
+            <!-- <a href="#" class="btn btn-primary">Rent</a> -->
+            <a href="#" class="btn btn-success">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- Cards Section -->
     <div id="services" class="container">
